@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T20:43:58.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.3" etag="xtHk0lNdtc_aHt8U7jGY" type="device">
+  <diagram id="Zpz_zVqZWnVD4rBhGmM-" name="Page-1">
+    <mxGraphModel dx="486" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TQ077lqqZWj_ShtsTEmU-1" value="&lt;b&gt;Follows&lt;/b&gt;&lt;br&gt;user_being_followed_id&lt;br&gt;user_following_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQ077lqqZWj_ShtsTEmU-2" value="&lt;b&gt;Likes&lt;/b&gt;&lt;br&gt;id&lt;br&gt;user_id&lt;br&gt;message_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TQ077lqqZWj_ShtsTEmU-3" value="&lt;b&gt;User&lt;/b&gt;&lt;br&gt;id&lt;br&gt;email&lt;br&gt;username&lt;br&gt;image_url&lt;br&gt;header_image_url&lt;br&gt;bio&lt;br&gt;location&lt;br&gt;password&lt;br&gt;messages&lt;br&gt;followers&lt;br&gt;following&lt;br&gt;likes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TQ077lqqZWj_ShtsTEmU-4" value="&lt;b&gt;Message&lt;/b&gt;&lt;br&gt;id PK&lt;br&gt;text&lt;br&gt;timestamp&lt;br&gt;user_id&lt;br&gt;user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="305" y="240" width="120" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
